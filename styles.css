@@ -779,7 +779,7 @@ p {
         top: 100%;
         left: 0;
         width: 100%;
-        background-color: var(--color-white);
+        background: linear-gradient(135deg, var(--color-text) 0%, #1e3a8a 50%, var(--color-text) 100%);
         flex-direction: column;
         padding: var(--spacing-lg);
         box-shadow: var(--shadow-md);
@@ -787,6 +787,7 @@ p {
         opacity: 0;
         visibility: hidden;
         transition: var(--transition-normal);
+        border-bottom: 2px solid var(--color-accent);
     }
 
     .nav__menu.show {
