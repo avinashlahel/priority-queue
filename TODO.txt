@@ -1,0 +1,37 @@
+Create a modern and visually appealing landing page for a Software Development & Consulting firm using HTML5 and CSS3. The page should showcase our expertise in developing advanced AI applications (automation, chatbots), modern software, and mobile solutions. Use a soothing color scheme (such as pale blues, soft greens, and gentle grays) and include tasteful, high-quality images and icons illustrating AI/automation, chatbots, and mobile development. Ensure the design is clean, user-friendly, and exemplifies innovation.
+
+
+Structure the landing page with the following sections:
+Header: Company logo, navigation menu (Home, Services, About, Contact)
+Hero Section: Large, welcoming headline. Subheadline emphasizing AI, automation, and software/mobile development expertise. Attractive call-to-action button ("Get a Free Consultation" or "Contact Us").
+Features: Three main cards or sections for (a) AI Automation, (b) Chatbots, (c) Software/Mobile Apps. Each should include a modern icon/image and a brief description.
+About Us: A short paragraph about the company and its mission.
+Portfolio/Showcase: Carousel or grid showing recent AI projects, chatbots, or mobile apps.
+Testimonials: Quotes from satisfied clients.
+Footer: Social links, contact info, copyright.
+
+
+Use a soothing, modern color palette: primary—pale blue (#e3f2fd), accents in soft green (#b2dfdb), and complementary gentle gray (#f5f5f5). Text primarily in deep charcoal (#263238).
+Use Google Fonts such as 'Montserrat' or 'Roboto' for a clean, modern feel.
+All images/icons should relate to AI development, automation, chatbots, mobile devices, and innovation. Use SVGs or royalty-free image placeholders.
+Add subtle hover effects to buttons and cards for modern interactivity.
+
+Add modern web features:
+Responsive layout (works beautifully on desktop and mobile)
+Smooth scrolling navigation
+Sticky header
+Cards or sections with slight shadows/elevations for depth
+Button/link hover transitions
+Optional: Animated hero image or subtle background animation (e.g., floating dots depicting AI network).
+
+Write clean, semantically structured HTML5 code.
+Use CSS3 for all styling.
+Ensure accessibility (proper use of landmarks and alt text on all images).
+Use CSS variables for easy theming.
+The code should be well-commented so future developers can maintain or extend it.
+
+
+Generate a responsive HTML5 and CSS3 landing page for a software development & consulting firm specializing in modern AI solutions (automation, chatbots) and advanced mobile/software applications. The design must be contemporary and calming, utilizing pale blue, soft green, gentle gray, and deep charcoal.
+The landing page should have these sections: header, hero with headline, features (AI automation, chatbots, mobile development—each with modern icons/images), about us, showcase, testimonials, and footer.
+Incorporate clean Google Fonts, SVG/royalty-free imagery, subtle animations, hover effects, and use only HTML5/CSS3—no frameworks. Ensure accessibility and provide meaningful alt text for all images. Use CSS variables for theming and comment your code for clarity
+
