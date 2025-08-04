@@ -81,7 +81,7 @@ p {
 
 /* ===== LAYOUT UTILITIES ===== */
 .container {
-    max-width: 1200px;
+    max-width: 90%;
     margin: 0 auto;
     padding: 0 var(--spacing-md);
 }
@@ -109,18 +109,16 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(135deg, var(--color-text) 0%, #1e3a8a 50%, var(--color-text) 100%);
+    background: transparent;
     backdrop-filter: blur(10px);
     z-index: 1000;
     transition: var(--transition-normal);
     box-shadow: var(--shadow-sm);
-    border-bottom: 2px solid var(--color-accent);
 }
 
 .header.scrolled {
-    background: linear-gradient(135deg, var(--color-text) 0%, #1e3a8a 50%, var(--color-text) 100%);
+    background: transparent;
     box-shadow: var(--shadow-md);
-    border-bottom: 3px solid var(--color-accent);
 }
 
 .nav {
@@ -335,7 +333,7 @@ p {
     grid-template-columns: repeat(3, 1fr);
     gap: var(--spacing-lg);
     width: 100%;
-    max-width: 800px;
+    max-width: 100%;
     position: relative;
 }
 
@@ -344,14 +342,14 @@ p {
     backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: var(--border-radius-xl);
-    padding: var(--spacing-xl);
+    padding: var(--spacing-xxl);
     text-align: center;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
     cursor: pointer;
     color: var(--color-white);
-    min-height: 200px;
+    min-height: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
