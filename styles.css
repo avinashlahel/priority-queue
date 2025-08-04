@@ -342,14 +342,14 @@ p {
     backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: var(--border-radius-xl);
-    padding: var(--spacing-xxl);
+    padding: var(--spacing-lg);
     text-align: center;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
     cursor: pointer;
     color: var(--color-white);
-    min-height: 220px;
+    min-height: 158px;
     display: flex;
     flex-direction: column;
     justify-content: center;
