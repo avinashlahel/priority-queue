@@ -858,39 +858,43 @@ p {
 .tech-node.frontend {
     top: 20%;
     left: 20%;
-    animation: float 4s ease-in-out infinite;
+    transform: translateY(0px);
+    animation: float-node 4s ease-in-out infinite;
 }
 
 .tech-node.backend {
     top: 20%;
     right: 20%;
-    animation: float 4s ease-in-out infinite 1s;
+    transform: translateY(0px);
+    animation: float-node 4s ease-in-out infinite 1s;
 }
 
 .tech-node.ai-ml {
     top: 60%;
     left: 15%;
-    animation: float 4s ease-in-out infinite 2s;
+    transform: translateY(0px);
+    animation: float-node 4s ease-in-out infinite 2s;
 }
 
 .tech-node.cloud {
     top: 60%;
     right: 15%;
-    animation: float 4s ease-in-out infinite 3s;
+    transform: translateY(0px);
+    animation: float-node 4s ease-in-out infinite 3s;
 }
 
 .tech-node.database {
     bottom: 10%;
     left: 50%;
-    transform: translateX(-50%);
-    animation: float 4s ease-in-out infinite 0.5s;
+    transform: translateX(-50%) translateY(0px);
+    animation: float-node-center 4s ease-in-out infinite 0.5s;
 }
 
 .tech-node.automation {
     top: 10%;
     left: 50%;
-    transform: translateX(-50%);
-    animation: float 4s ease-in-out infinite 1.5s;
+    transform: translateX(-50%) translateY(0px);
+    animation: float-node-center 4s ease-in-out infinite 1.5s;
 }
 
 /* Connection Lines */
@@ -948,6 +952,24 @@ p {
 }
 
 /* Animations */
+@keyframes float-node {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes float-node-center {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0px);
+    }
+    50% {
+        transform: translateX(-50%) translateY(-10px);
+    }
+}
+
 @keyframes float-particle {
     0%, 100% {
         transform: translateY(0px) scale(1);
