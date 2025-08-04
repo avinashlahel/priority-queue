@@ -303,16 +303,82 @@
                         </div>
                     </div>
                     <div class="about__image">
-                        <svg class="about__illustration" viewBox="0 0 300 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Team Collaboration Illustration -->
-                            <circle cx="150" cy="125" r="80" fill="var(--color-primary-light)" opacity="0.2"/>
-                            <circle cx="120" cy="100" r="25" fill="var(--color-primary)"/>
-                            <circle cx="180" cy="100" r="25" fill="var(--color-accent)"/>
-                            <circle cx="150" cy="150" r="25" fill="var(--color-primary)"/>
-                            <path d="M120 100 Q150 125 180 100" stroke="var(--color-text)" stroke-width="2" fill="none"/>
-                            <path d="M120 100 Q150 125 150 150" stroke="var(--color-text)" stroke-width="2" fill="none"/>
-                            <path d="M180 100 Q150 125 150 150" stroke="var(--color-text)" stroke-width="2" fill="none"/>
-                        </svg>
+                        <div class="tech-ecosystem">
+                            <!-- Central Hub -->
+                            <div class="tech-hub">
+                                <div class="hub-core">
+                                    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="30" cy="30" r="25" fill="url(#hubGradient)" stroke="var(--color-white)" stroke-width="2"/>
+                                        <path d="M20 30 L25 25 L25 35 L20 30" fill="var(--color-white)"/>
+                                        <path d="M40 30 L35 25 L35 35 L40 30" fill="var(--color-white)"/>
+                                        <path d="M30 20 L25 25 L35 25 L30 20" fill="var(--color-white)"/>
+                                        <path d="M30 40 L25 35 L35 35 L30 40" fill="var(--color-white)"/>
+                                        <defs>
+                                            <linearGradient id="hubGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                <stop offset="0%" style="stop-color:var(--color-primary);stop-opacity:1" />
+                                                <stop offset="100%" style="stop-color:var(--color-accent);stop-opacity:1" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <!-- Tech Nodes -->
+                            <div class="tech-node frontend" data-category="frontend">
+                                <div class="node-icon">
+                                    <img src="svg/react-original.svg" alt="React" class="tech-icon-img">
+                                </div>
+                                <div class="node-label">React</div>
+                                <div class="connection-line"></div>
+                            </div>
+
+                            <div class="tech-node backend" data-category="backend">
+                                <div class="node-icon">
+                                    <img src="svg/nodejs-original.svg" alt="Node.js" class="tech-icon-img">
+                                </div>
+                                <div class="node-label">Node.js</div>
+                                <div class="connection-line"></div>
+                            </div>
+
+                            <div class="tech-node ai-ml" data-category="ai-ml">
+                                <div class="node-icon">
+                                    <img src="svg/tensorflow-original.svg" alt="TensorFlow" class="tech-icon-img">
+                                </div>
+                                <div class="node-label">TensorFlow</div>
+                                <div class="connection-line"></div>
+                            </div>
+
+                            <div class="tech-node cloud" data-category="cloud">
+                                <div class="node-icon">
+                                    <img src="svg/amazonwebservices-original-wordmark.svg" alt="AWS" class="tech-icon-img">
+                                </div>
+                                <div class="node-label">AWS</div>
+                                <div class="connection-line"></div>
+                            </div>
+
+                            <div class="tech-node database" data-category="database">
+                                <div class="node-icon">
+                                    <img src="svg/mongodb-original.svg" alt="MongoDB" class="tech-icon-img">
+                                </div>
+                                <div class="node-label">MongoDB</div>
+                                <div class="connection-line"></div>
+                            </div>
+
+                            <div class="tech-node automation" data-category="automation">
+                                <div class="node-icon">
+                                    <img src="svg/python-original.svg" alt="Python" class="tech-icon-img">
+                                </div>
+                                <div class="node-label">Python</div>
+                                <div class="connection-line"></div>
+                            </div>
+
+                            <!-- Floating Particles -->
+                            <div class="particle particle-1"></div>
+                            <div class="particle particle-2"></div>
+                            <div class="particle particle-3"></div>
+                            <div class="particle particle-4"></div>
+                            <div class="particle particle-5"></div>
+                        </div>
                     </div>
                 </div>
             </div>
