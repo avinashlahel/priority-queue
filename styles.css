@@ -841,13 +841,32 @@ p {
 /* ===== TESTIMONIALS SECTION ===== */
 .testimonials {
     padding: var(--spacing-xxl) 0;
-    background-color: var(--color-background);
+    background: linear-gradient(rgba(26, 35, 126, 0.85), rgba(0, 188, 212, 0.75)), 
+                url('./images/testimonials-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
 }
 
 .testimonials__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: var(--spacing-lg);
+    position: relative;
+    z-index: 2;
+}
+
+/* Testimonials section specific title and subtitle colors */
+.testimonials .section__title {
+    color: var(--color-white);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.testimonials .section__subtitle {
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .testimonial-card {
