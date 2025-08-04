@@ -28,6 +28,7 @@
     --border-radius-sm: 0.5rem;
     --border-radius-md: 1rem;
     --border-radius-lg: 1.5rem;
+    --border-radius-xl: 2rem;
     
     /* Transitions */
     --transition-fast: 0.2s ease;
@@ -350,6 +351,11 @@ p {
     overflow: hidden;
     cursor: pointer;
     color: var(--color-white);
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .tech-showcase-item::before {
@@ -405,16 +411,29 @@ p {
 
 .tech-showcase-item h3 {
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 800;
+    font-family: var(--font-primary);
     margin-bottom: var(--spacing-sm);
     color: var(--color-white);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 .tech-showcase-item p {
-    font-size: 0.85rem;
-    opacity: 0.9;
-    line-height: 1.4;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: var(--font-secondary);
+    opacity: 0.95;
+    line-height: 1.5;
     color: var(--color-white);
+    text-align: center;
+    letter-spacing: 0.3px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .tech-particles {
@@ -1054,10 +1073,12 @@ p {
 
     .tech-showcase-item h3 {
         font-size: 1rem;
+        letter-spacing: 0.3px;
     }
 
     .tech-showcase-item p {
-        font-size: 0.75rem;
+        font-size: 0.8rem;
+        letter-spacing: 0.2px;
     }
 
     .hero__floating-stats {
@@ -1094,8 +1115,18 @@ p {
     }
 
     .tech-categories {
-        grid-template-columns: repeat(2, 1fr);
-        gap: var(--spacing-md);
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+        margin-top: var(--spacing-lg);
+    }
+
+    .tech-category {
+        padding: var(--spacing-md);
+    }
+
+    .tech-category__title {
+        font-size: 1.1rem;
+        margin-bottom: var(--spacing-md);
     }
 
     .portfolio__grid,
@@ -1113,12 +1144,12 @@ p {
     }
 
     .tech-logo {
-        width: 36px;
-        height: 36px;
+        width: 32px;
+        height: 32px;
     }
 
     .tech-name {
-        font-size: 0.7rem;
+        font-size: 0.65rem;
     }
 
     .footer__content {
@@ -1146,6 +1177,41 @@ p {
     .portfolio__item,
     .testimonial-card {
         padding: var(--spacing-md);
+    }
+
+    /* Tech Toolkit Mobile Optimizations */
+    .tech-categories {
+        gap: var(--spacing-md);
+        margin-top: var(--spacing-md);
+    }
+
+    .tech-category {
+        padding: var(--spacing-sm);
+    }
+
+    .tech-category__title {
+        font-size: 1rem;
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .tech-stack {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-xs);
+    }
+
+    .tech-item {
+        padding: var(--spacing-xs);
+    }
+
+    .tech-logo {
+        width: 28px;
+        height: 28px;
+        margin-bottom: var(--spacing-xs);
+    }
+
+    .tech-name {
+        font-size: 0.6rem;
+        line-height: 1.1;
     }
 }
 
