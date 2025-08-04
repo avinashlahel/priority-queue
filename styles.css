@@ -1292,6 +1292,14 @@ p {
         gap: var(--spacing-lg);
     }
 
+    .hero__content {
+        padding: var(--spacing-xl) 0;
+    }
+
+    .hero__title {
+        margin-top: var(--spacing-lg);
+    }
+
     .hero__tech-showcase {
         grid-template-columns: repeat(2, 1fr);
         gap: var(--spacing-md);
