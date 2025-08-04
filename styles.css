@@ -1300,6 +1300,10 @@ p {
         margin-top: var(--spacing-lg);
     }
 
+    .hero {
+        padding-bottom: var(--spacing-xl);
+    }
+
     .hero__tech-showcase {
         grid-template-columns: repeat(2, 1fr);
         gap: var(--spacing-md);
